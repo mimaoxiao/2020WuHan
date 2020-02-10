@@ -1,0 +1,55 @@
+<!--pages/Test/Test10/Test10.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    10/11
+    </view>
+    两周内的行为调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">去过武汉及其周边地区</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">接触过来自武汉的病人</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">去过湖北及其周边地区</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">使用交通工具时在湖北停留</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">接触过来自湖北的人</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">接触活的禽类</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">似乎接触过病人，记不清</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">未接触</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一题</view>
+   <view bindtap="Next" class="AnswerNext">下一题</view>
+  </view>
+</view>
+

@@ -1,0 +1,25 @@
+<!--pages/History/History.wxml-->
+<view class="Container">
+  <view class="Block">
+    <text class="BlockUnit">
+      序号
+    </text>
+    <text class="BlockUnit">
+      时间
+    </text>
+    <text class="BlockUnit">
+      结果
+    </text>
+  </view>
+  <view class="Block">
+    <text class="BlockUnit">
+      1
+    </text>
+    <text class="BlockUnit">
+      2020-02-02
+    </text>
+    <text class="BlockUnit">
+      Safe
+    </text>
+  </view>
+</view>

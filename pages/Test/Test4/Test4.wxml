@@ -1,0 +1,41 @@
+<!--pages/Test/Test4/Test4.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    4/11
+    </view>
+    是否有以下眼部症状
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">红肿血丝增多</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">眼睛酸痒或疼痛</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一题</view>
+   <view bindtap="Next" class="AnswerNext">下一题</view>
+  </view>
+</view>
+

@@ -1,0 +1,34 @@
+/* pages/Result/Result.wxss */
+.Container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.Title{
+  font-size: 75rpx;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TitleText{
+  height: auto;
+}
+.TitleImage{
+  height: 100rpx;
+}
+.Analyse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AnalyseStatus{
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.AnalyseText{
+  margin: 50rpx;
+}

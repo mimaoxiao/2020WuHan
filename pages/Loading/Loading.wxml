@@ -1,0 +1,7 @@
+<!--pages/Loading/Loading.wxml-->
+<view class="Container">
+  <image class="Loading" src="Loading.jpg"></image>
+  <text class="LoadingText">
+    loading
+  </text>
+</view>

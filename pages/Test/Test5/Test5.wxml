@@ -1,0 +1,77 @@
+<!--pages/Test/Test5/Test5.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    5/11
+    </view>
+    是否有以下体感症状
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">头冷头昏</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">体力下降</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">胸闷心慌</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">肌肉非运动酸痛</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">怕冷</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">非以上其他不适</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一题</view>
+   <view bindtap="Next" class="AnswerNext">下一题</view>
+  </view>
+</view>
+

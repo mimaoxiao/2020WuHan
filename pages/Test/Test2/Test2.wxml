@@ -1,0 +1,68 @@
+<!--pages/Test/Test2/Test2.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    2/11
+    </view>
+    是否有以下呼吸道症状
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">鼻塞流涕</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">咽喉痛</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">干咳</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">呼吸短促不顺</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">咳嗽有痰</view>
+      <view class="QuestionChoose">
+        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一题</view>
+   <view bindtap="Next" class="AnswerNext">下一题</view>
+  </view>
+</view>
+

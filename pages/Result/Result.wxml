@@ -1,0 +1,27 @@
+<!--pages/Result/Result.wxml-->
+<view class="Container">
+  <view class="Title">
+      今日报告
+  </view>
+  <image class="TitleImage" src="ResultBeat.png"></image>
+  <view class="Analyse">
+    <text class="AnalyseStatus">
+      可能性高
+    </text>
+    <text class="AnalyseText">
+      喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵
+    </text>
+  </view>
+  <view class="Other">
+    <view class="OtherPart">
+      <image src="" class="OtherIcon"></image>
+      meow
+    </view>
+  </view>
+  <view class="Human">
+    meowmeow
+    <view class="HumanSwitch">
+
+    </view>
+  </view>
+</view>

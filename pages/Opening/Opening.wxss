@@ -1,0 +1,74 @@
+.Container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 0;
+  box-sizing: border-box;
+}
+.Title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50rpx;
+}
+.TitleBig{
+  font-weight: bold;
+  font-size: 100rpx;
+}
+.TitleSmall{
+  font-size: 25rpx;
+  color: gray;
+}
+.User {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx 0;
+}
+.UserImg {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.UserText {
+  color: #aaa;
+  font-size: 30rpx;
+}
+
+.OpeningPic{
+  width: 250rpx;
+  height: 250rpx;
+  padding: 20rpx;
+}
+
+.Status{
+  padding: 10rpx 0;
+  font-size: 30rpx;
+}
+.StatusPic{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 10rpx;
+  padding-top: 10rpx;
+}
+
+.Start{
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.StartButton{
+  font-weight: 500;
+  width:600rpx;
+  background-color: #2783f2;
+  color: white;
+}
+.StartText{
+  color: #aaa;
+  font-size: 30rpx;
+}

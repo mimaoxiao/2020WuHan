@@ -1,0 +1,31 @@
+<!--pages/Test/Test9/Test9.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    9/11
+    </view>
+    两周内的出行调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">去过人群聚集场所/使用过公共交通</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">参与过人群聚集活动</view>
+      <switch class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一题</view>
+   <view bindtap="Next" class="AnswerNext">下一题</view>
+  </view>
+</view>
+

@@ -1,0 +1,26 @@
+<!--opening.wxml-->
+<view class="Container">
+
+  <view class="Title">
+    <text class="TitleBig">Ncov</text>
+    <text class="TitleSmall">meow</text>
+  </view>
+
+  <view bindtap="ToHistory" class="User">
+    <image class="UserImg" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="UserText">我的报告</text>
+  </view>
+
+  <image class="OpeningPic" src="OpeningShow.png" mode="cover"></image>
+
+  <view class="Status">
+    <image class="StatusPic" src="OpeningBox.jpg"></image>
+    <text>目前状态：meow</text>
+  </view>
+
+  <view class="Start">
+    <button bindtap="ToTest" class="StartButton">开始测试</button>
+    <text class="StartText">meow</text>
+  </view>
+
+</view>

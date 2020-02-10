@@ -1,0 +1,13 @@
+<!--pages/ReTest/ReTest.wxml-->
+<view class="Container">
+  <view class="Question">
+    <text class="QuestionText">
+      有变化吗？
+    </text>
+    <view class="QuestionAnswer">
+      <button class="QuestionButton">Yes</button>
+      <button class="QuestionButton">No</button>
+      <text class="QuestionTip">只需填写改变的症状即可</text>
+    </view>
+  </view>
+</view>

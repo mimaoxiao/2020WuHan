@@ -1,0 +1,48 @@
+<!--pages/Test/Test1/Test1.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    1/11
+    </view>
+    第一题
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionLabel">
+        年龄
+      </view>
+      <view class="QuestionContent">
+        <image class="QuestionIcon" src="Age.jpg"></image>
+        <input maxlength="3" class="QuestionInput"></input>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionLabel">
+        性别
+      </view>
+      <view class="QuestionContent">
+        <image class="QuestionIcon" src="Man.jpg"></image>
+        <image class="QuestionIcon" src="Woman.jpg"></image>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionLabel">
+        现居地
+      </view>
+      <view class="QuestionContent">
+        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Next" class="AnswerNext">下一题</view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/Opening/Opening",
+    "pages/History/History",
+    "pages/Loading/Loading",
+    "pages/ReTest/ReTest",
+    "pages/Result/Result",
+    "pages/Test/Test1/Test1",
+    "pages/Test/Test2/Test2",
+    "pages/Test/Test3/Test3",
+    "pages/Test/Test4/Test4",
+    "pages/Test/Test5/Test5",
+    "pages/Test/Test6/Test6",
+    "pages/Test/Test7/Test7",
+    "pages/Test/Test8/Test8",
+    "pages/Test/Test9/Test9",
+    "pages/Test/Test10/Test10",
+    "pages/Test/Test11/Test11"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
