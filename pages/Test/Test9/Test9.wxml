@@ -16,16 +16,16 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">去过人群聚集场所/使用过公共交通</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{i1}}" bindchange="Ci1" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">参与过人群聚集活动</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{i2}}" bindchange="Ci2" class="QuestionChoose" type="checkbox"/>
     </view>
   </view>
   <view class="Answer">
-   <view bindtap="Prev" class="AnswerPrev">上一题</view>
-   <view bindtap="Next" class="AnswerNext">下一题</view>
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
   </view>
 </view>
 

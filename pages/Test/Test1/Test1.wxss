@@ -59,6 +59,7 @@
 }
 .QuestionContent{
   display: flex;
+  align-items: center;
 }
 .QuestionInput{
   border-bottom: 2px solid gray;
@@ -71,6 +72,7 @@
   margin-left: 50rpx;
   margin-right: 50rpx;
 }
+
 .QuestionSelect{
   margin-left: 50rpx;
   margin-right: 50rpx;

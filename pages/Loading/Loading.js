@@ -1,4 +1,5 @@
 // pages/Loading/Loading.js
+const app = getApp();
 Page({
 
   /**
@@ -19,9 +20,11 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-      wx.redirectTo({
-        url: '../Result/Result'
-      })
+
+
+    wx.redirectTo({
+      url: '../Result/Result'
+    })
   },
 
   /**
@@ -64,5 +67,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
 })

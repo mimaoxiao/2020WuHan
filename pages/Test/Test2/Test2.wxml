@@ -17,7 +17,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">鼻塞流涕</view>
       <view class="QuestionChoose">
-        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{b1}}" bindchange="Cb1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -26,7 +26,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">咽喉痛</view>
       <view class="QuestionChoose">
-        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{b2}}" bindchange="Cb2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -35,7 +35,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">干咳</view>
       <view class="QuestionChoose">
-        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{b3}}" bindchange="Cb3" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -44,7 +44,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">呼吸短促不顺</view>
       <view class="QuestionChoose">
-        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{b4}}" bindchange="Cb4" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -53,7 +53,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">咳嗽有痰</view>
       <view class="QuestionChoose">
-        <slider activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{b5}}" bindchange="Cb5" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -61,8 +61,8 @@
     </view>
   </view>
   <view class="Answer">
-   <view bindtap="Prev" class="AnswerPrev">上一题</view>
-   <view bindtap="Next" class="AnswerNext">下一题</view>
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
   </view>
 </view>
 

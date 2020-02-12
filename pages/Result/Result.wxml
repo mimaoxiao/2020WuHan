@@ -14,14 +14,24 @@
   </view>
   <view class="Other">
     <view class="OtherPart">
-      <image src="" class="OtherIcon"></image>
+      <image src="AI.jpg" class="OtherIcon"></image>
+      meow
+    </view>
+    <view class="OtherPart">
+      <image src="Share.jpg" class="OtherIcon"></image>
+      meow
+    </view>
+    <view class="OtherPart">
+      <image src="Weixin.jpg" class="OtherIcon"></image>
       meow
     </view>
   </view>
   <view class="Human">
-    meowmeow
+    <view class="HumanTip">
+      meowmeow
+    </view>
     <view class="HumanSwitch">
-
+      meowmeowmeow
     </view>
   </view>
 </view>

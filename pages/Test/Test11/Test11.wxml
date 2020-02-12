@@ -16,13 +16,9 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">身边有人出现症状</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{k1}}" bindchange="Ck1" class="QuestionChoose" type="checkbox"/>
     </view>
-    <view class="QuestionPart">
-      <view class="QuestionContent">无人出现症状</view>
-      <switch class="QuestionChoose" type="checkbox"/>
-    </view>
-    <view class="Warning">
+    <view wx:if="{{warning}}" class="Warning">
       <view class="WarningTip">
         <image class="WarningIcon" src="Star.jpg"></image>
         meow
@@ -34,7 +30,7 @@
     </view>
   </view>
   <view class="Answer">
-   <view bindtap="Prev" class="AnswerPrev">上一题</view>
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
    <view bindtap="Next" class="AnswerNext">提交</view>
   </view>
 </view>

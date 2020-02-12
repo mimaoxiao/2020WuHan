@@ -28,8 +28,8 @@
         性别
       </view>
       <view class="QuestionContent">
-        <image class="QuestionIcon" src="Man.jpg"></image>
-        <image class="QuestionIcon" src="Woman.jpg"></image>
+        <image class="QuestionIcon" bindtap="chooseman" style="width:{{manSize}};height:{{manSize}}" src="Man.jpg"></image>
+        <image class="QuestionIcon" bindtap="choosewoman" style="width:{{womanSize}};height:{{womanSize}}" src="Woman.jpg"></image>
       </view>
     </view>
     <view class="QuestionPart">
@@ -43,6 +43,6 @@
     </view>
   </view>
   <view class="Answer">
-   <view bindtap="Next" class="AnswerNext">下一题</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
   </view>
 </view>

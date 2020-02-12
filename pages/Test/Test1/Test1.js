@@ -1,4 +1,5 @@
 // pages/Test/Test1/Test1.js
+const app = getApp();
 Page({
 
   /**
@@ -14,7 +15,12 @@ Page({
     }, {
       city_id: '003',
       city_name: '深圳'
-    }]
+    }],
+    manSize:"50rpx",
+    womanSize:"50rpx",
+    a1: -1,
+    a2: "",
+    a3: "",
   },
 
   /**
@@ -49,7 +55,9 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    app.globalData.a1 = this.data.a1;
+    app.globalData.a2 = this.data.a2;
+    app.globalData.a3 = this.data.a3;
   },
 
   /**
@@ -76,5 +84,31 @@ Page({
     wx.redirectTo({
       url: '../Test2/Test2'
     })
-  }
+  },
+  chooseman:function(){
+    let that=this;
+    that.setData({
+      manSize:"75rpx",
+      womanSize:"50rpx",
+      a2:"M"
+    })
+  },
+  choosewoman: function () {
+    let that = this;
+    that.setData({
+      manSize: "50rpx",
+      womanSize: "75rpx",
+      a2:"W"
+    })
+  },
+  Ca1: function (e) {
+    this.setData({
+      a1: e.detail.value
+    })
+  },
+  Ca3: function (e) {
+    this.setData({
+      a3: e.detail.value
+    })
+  },
 })

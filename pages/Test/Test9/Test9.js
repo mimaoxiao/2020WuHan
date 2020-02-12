@@ -1,18 +1,23 @@
 // pages/Test/Test9/Test9.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    i1: false,
+    i2: false,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      i1: app.globalData.i1,
+      i2: app.globalData.i2,
+    })
   },
 
   /**
@@ -40,7 +45,8 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    app.globalData.i1 = this.data.i1;
+    app.globalData.i2 = this.data.i2;
   },
 
   /**
@@ -72,5 +78,15 @@ Page({
     wx.redirectTo({
       url: '../Test8/Test8'
     })
-  }  
+  },
+  Ci1: function (e) {
+    this.setData({
+      i1: e.detail.value
+    })
+  },
+  Ci2: function (e) {
+    this.setData({
+      i2: e.detail.value
+    })
+  },
 })

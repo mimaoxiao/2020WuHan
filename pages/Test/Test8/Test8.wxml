@@ -16,20 +16,20 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">市场</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{h1}}" bindchange="Ch1" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">公寓/居民楼/商品房</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{h2}}" bindchange="Ch2" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">独栋房屋</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{h3}}" bindchange="Ch3" class="QuestionChoose" type="checkbox"/>
     </view>
   </view>
   <view class="Answer">
-   <view bindtap="Prev" class="AnswerPrev">上一题</view>
-   <view bindtap="Next" class="AnswerNext">下一题</view>
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
   </view>
 </view>
 

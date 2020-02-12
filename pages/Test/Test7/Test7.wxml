@@ -16,24 +16,20 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">高于38°C</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{g1}}" bindchange="Cg1" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">37.3°C~38°C</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{g2}}" bindchange="Cg2" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">感觉发烧</view>
-      <switch class="QuestionChoose" type="checkbox"/>
-    </view>
-    <view class="QuestionPart">
-      <view class="QuestionContent">未发烧</view>
-      <switch class="QuestionChoose" type="checkbox"/>
+      <switch value="{{g3}}" bindchange="Cg3" class="QuestionChoose" type="checkbox"/>
     </view>
   </view>
   <view class="Answer">
-   <view bindtap="Prev" class="AnswerPrev">上一题</view>
-   <view bindtap="Next" class="AnswerNext">下一题</view>
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
   </view>
 </view>
 
