@@ -16,11 +16,11 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">去过人群聚集场所/使用过公共交通</view>
-      <switch value="{{i1}}" bindchange="Ci1" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{action1}}" bindchange="Caction1" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">参与过人群聚集活动</view>
-      <switch value="{{i2}}" bindchange="Ci2" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{action2}}" bindchange="Caction2" class="QuestionChoose" type="checkbox"/>
     </view>
   </view>
   <view class="Answer">

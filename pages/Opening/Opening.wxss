@@ -11,25 +11,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50rpx;
 }
 .TitleBig{
   font-weight: bold;
-  font-size: 100rpx;
+  font-size: 75rpx;
 }
 .TitleSmall{
   font-size: 25rpx;
   color: gray;
 }
-.User {
+.User{
+  display: flex;
+  align-items: center;
+}
+.UserLoad{
+  position: absolute;
+  right: 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.UserMessage {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40rpx 0;
+  padding-top: 10rpx;
 }
 .UserImg {
-  width: 128rpx;
-  height: 128rpx;
+  width: 100rpx;
+  height: 100rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
@@ -38,10 +48,22 @@
   font-size: 30rpx;
 }
 
-.OpeningPic{
-  width: 250rpx;
-  height: 250rpx;
+.OpeningChart{
+  width: 500rpx;
+  height: 500rpx;
   padding: 20rpx;
+}
+ec-canvas {
+  width: 500rpx;
+  height: 500rpx;
+  z-index: 1;
+}
+.ChartStop{
+  position: absolute;
+  width: 500rpx;
+  height: 500rpx;
+  z-index: 4;
+  opacity: 0;
 }
 
 .Status{

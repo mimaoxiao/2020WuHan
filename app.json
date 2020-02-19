@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/Opening/Opening",
+    "pages/Opening/ec-canvas/ec-canvas",
     "pages/History/History",
     "pages/Loading/Loading",
     "pages/ReTest/ReTest",

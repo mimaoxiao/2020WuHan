@@ -17,7 +17,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">腹泻</view>
       <view class="QuestionChoose">
-        <slider value="{{c1}}" bindchange="Cc1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{stomach1}}" bindchange="Cstomach1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -26,7 +26,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">腹痛</view>
       <view class="QuestionChoose">
-        <slider value="{{c2}}" bindchange="Cc2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{stomach2}}" bindchange="Cstomach2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -35,7 +35,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">恶心反胃</view>
       <view class="QuestionChoose">
-        <slider value="{{c3}}" bindchange="Cc3" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{stomach3}}" bindchange="Cstomach3" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -44,7 +44,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">呕吐</view>
       <view class="QuestionChoose">
-        <slider value="{{c4}}" bindchange="Cc4" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{stomach4}}" bindchange="Cstomach4" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>

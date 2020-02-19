@@ -6,9 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    g1: false,
-    g2: false,
-    g3: false,
+    hot1: false,
+    hot2: false,
+    hot3: false,
   },
 
   /**
@@ -16,9 +16,9 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      g1: app.globalData.g1,
-      g2: app.globalData.g2,
-      g3: app.globalData.g3,
+      hot1: app.globalData.hot1,
+      hot2: app.globalData.hot2,
+      hot3: app.globalData.hot3,
     })
   },
 
@@ -47,9 +47,9 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.g1 = this.data.g1;
-    app.globalData.g2 = this.data.g2;
-    app.globalData.g3 = this.data.g3;
+    app.globalData.hot1 = this.data.hot1;
+    app.globalData.hot2 = this.data.hot2;
+    app.globalData.hot3 = this.data.hot3;
   },
 
   /**
@@ -82,19 +82,19 @@ Page({
       url: '../Test6/Test6'
     })
   },
-  Cg1: function (e) {
+  Chot1: function (e) {
     this.setData({
-      g1: e.detail.value
+      hot1: e.detail.value
     })
   },
-  Cg2: function (e) {
+  Chot2: function (e) {
     this.setData({
-      g2: e.detail.value
+      hot2: e.detail.value
     })
   },
-  Cg3: function (e) {
+  Chot3: function (e) {
     this.setData({
-      g3: e.detail.value
+      hot3: e.detail.value
     })
   },
 })

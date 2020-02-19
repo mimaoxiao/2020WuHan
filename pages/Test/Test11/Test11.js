@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    k1: false,
+    people1: false,
     warning:false
   },
 
@@ -17,7 +17,7 @@ Page({
     this.countResult();
 
     this.setData({
-      k1: app.globalData.k1,
+      people1: app.globalData.people1,
     })
   },
 
@@ -25,7 +25,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    app.globalData.k1 = this.data.k1;
+    app.globalData.people1 = this.data.people1;
     this.setData({
       warning: this.countResult()
     })
@@ -82,11 +82,11 @@ Page({
       url: '../Test10/Test10'
     })
   },
-  Ck1: function (e) {
+  Cpeople1: function (e) {
     this.setData({
-      k1: e.detail.value
+      people1: e.detail.value
     });
-    app.globalData.k1 = this.data.k1;
+    app.globalData.people1 = this.data.people1;
 
     this.setData({
       warning: this.countResult()
@@ -106,7 +106,7 @@ Page({
 
     cH.push(app.globalData.j1);
     cH.push(app.globalData.j2);
-    cH.push(app.globalData.k1);
+    cH.push(app.globalData.people1);
 
     cN.push(app.globalData.j3);
 

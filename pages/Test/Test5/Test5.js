@@ -6,12 +6,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    e1: 0,
-    e2: 0,
-    e3: 0,
-    e4: 0,
-    e5: 0,
-    e6: 0,
+    body1: 0,
+    body2: 0,
+    body3: 0,
+    body4: 0,
+    body5: 0,
+    body6: 0,
   },
 
   /**
@@ -19,12 +19,12 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      e1: app.globalData.e1,
-      e2: app.globalData.e2,
-      e3: app.globalData.e3,
-      e4: app.globalData.e4,
-      e5: app.globalData.e5,
-      e6: app.globalData.e6,
+      body1: app.globalData.body1,
+      body2: app.globalData.body2,
+      body3: app.globalData.body3,
+      body4: app.globalData.body4,
+      body5: app.globalData.body5,
+      body6: app.globalData.body6,
     })
   },
 
@@ -53,12 +53,12 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.e1 = this.data.e1;
-    app.globalData.e2 = this.data.e2;
-    app.globalData.e3 = this.data.e3;
-    app.globalData.e4 = this.data.e4;
-    app.globalData.e5 = this.data.e5;
-    app.globalData.e6 = this.data.e6;
+    app.globalData.body1 = this.data.body1;
+    app.globalData.body2 = this.data.body2;
+    app.globalData.body3 = this.data.body3;
+    app.globalData.body4 = this.data.body4;
+    app.globalData.body5 = this.data.body5;
+    app.globalData.body6 = this.data.body6;
   },
 
   /**
@@ -91,34 +91,34 @@ Page({
       url: '../Test4/Test4'
     })
   },
-  Ce1: function (e) {
+  Cbody1: function (e) {
     this.setData({
-      e1: e.detail.value
+      body1: e.detail.value
     })
   },
-  Ce2: function (e) {
+  Cbody2: function (e) {
     this.setData({
-      e2: e.detail.value
+      body2: e.detail.value
     })
   },
-  Ce3: function (e) {
+  Cbody3: function (e) {
     this.setData({
-      e3: e.detail.value
+      body3: e.detail.value
     })
   },
-  Ce4: function (e) {
+  Cbody4: function (e) {
     this.setData({
-      e4: e.detail.value
+      body4: e.detail.value
     })
   },
-  Ce5: function (e) {
+  Cbody5: function (e) {
     this.setData({
-      e5: e.detail.value
+      body5: e.detail.value
     })
   },
-  Ce6: function (e) {
+  Cbody6: function (e) {
     this.setData({
-      e6: e.detail.value
+      body6: e.detail.value
     })
   },
 })

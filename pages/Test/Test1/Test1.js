@@ -18,9 +18,10 @@ Page({
     }],
     manSize:"50rpx",
     womanSize:"50rpx",
-    a1: -1,
-    a2: "",
-    a3: "",
+    age: -1,
+    sexual: "",
+    addressB: "",
+    addressS: "",
   },
 
   /**
@@ -55,9 +56,10 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.a1 = this.data.a1;
-    app.globalData.a2 = this.data.a2;
-    app.globalData.a3 = this.data.a3;
+    app.globalData.age = this.data.age;
+    app.globalData.sexual = this.data.sexual;
+    app.globalData.addressB = this.data.addressB;
+    app.globalData.addressS = this.data.addressS;
   },
 
   /**
@@ -90,7 +92,7 @@ Page({
     that.setData({
       manSize:"75rpx",
       womanSize:"50rpx",
-      a2:"M"
+      sexual:"M"
     })
   },
   choosewoman: function () {
@@ -98,17 +100,22 @@ Page({
     that.setData({
       manSize: "50rpx",
       womanSize: "75rpx",
-      a2:"W"
+      sexual:"W"
     })
   },
-  Ca1: function (e) {
+  Cage: function (e) {
     this.setData({
-      a1: e.detail.value
+      age: e.detail.value
     })
   },
-  Ca3: function (e) {
+  CaddressB: function (e) {
     this.setData({
-      a3: e.detail.value
+      addressB: e.name
+    })
+  },
+  CaddressS: function (e) {
+    this.setData({
+      addressS: e.name
     })
   },
 })

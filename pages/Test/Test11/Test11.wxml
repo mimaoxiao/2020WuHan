@@ -16,7 +16,7 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">身边有人出现症状</view>
-      <switch value="{{k1}}" bindchange="Ck1" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{people1}}" bindchange="Cpeople1" class="QuestionChoose" type="checkbox"/>
     </view>
     <view wx:if="{{warning}}" class="Warning">
       <view class="WarningTip">

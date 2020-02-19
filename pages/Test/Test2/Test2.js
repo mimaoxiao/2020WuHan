@@ -6,11 +6,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-    b1: 0,
-    b2: 0,
-    b3: 0,
-    b4: 0,
-    b5: 0,
+    breath1: 0,
+    breath2: 0,
+    breath3: 0,
+    breath4: 0,
+    breath5: 0,
   },
 
   /**
@@ -18,11 +18,11 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      b1: app.globalData.b1,
-      b2: app.globalData.b2,
-      b3: app.globalData.b3,
-      b4: app.globalData.b4,
-      b5: app.globalData.b5,
+      breath1: app.globalData.breath1,
+      breath2: app.globalData.breath2,
+      breath3: app.globalData.breath3,
+      breath4: app.globalData.breath4,
+      breath5: app.globalData.breath5,
     })
   },
 
@@ -51,11 +51,11 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.b1 = this.data.b1;
-    app.globalData.b2 = this.data.b2;
-    app.globalData.b3 = this.data.b3;
-    app.globalData.b4 = this.data.b4;
-    app.globalData.b5 = this.data.b5;
+    app.globalData.breath1 = this.data.breath1;
+    app.globalData.breath2 = this.data.breath2;
+    app.globalData.breath3 = this.data.breath3;
+    app.globalData.breath4 = this.data.breath4;
+    app.globalData.breath5 = this.data.breath5;
   },
 
   /**
@@ -88,29 +88,29 @@ Page({
       url: '../Test1/Test1'
     })
   },
-  Cb1:function(e){
+  Cbreath1:function(e){
     this.setData({
-      b1:e.detail.value
+      breath1:e.detail.value
     })
   },
-  Cb2: function (e) {
+  Cbreath2: function (e) {
     this.setData({
-      b2: e.detail.value
+      breath2: e.detail.value
     })
   },
-  Cb3: function (e) {
+  Cbreath3: function (e) {
     this.setData({
-      b3: e.detail.value
+      breath3: e.detail.value
     })
   },
-  Cb4: function (e) {
+  Cbreath4: function (e) {
     this.setData({
-      b4: e.detail.value
+      breath4: e.detail.value
     })
   },
-  Cb5: function (e) {
+  Cbreath5: function (e) {
     this.setData({
-      b5: e.detail.value
+      breath5: e.detail.value
     })
   },
 })

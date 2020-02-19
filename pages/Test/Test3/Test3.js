@@ -6,10 +6,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    c1: 0,
-    c2: 0,
-    c3: 0,
-    c4: 0,
+    stomach1: 0,
+    stomach2: 0,
+    stomach3: 0,
+    stomach4: 0,
   },
 
   /**
@@ -17,10 +17,10 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      c1: app.globalData.c1,
-      c2: app.globalData.c2,
-      c3: app.globalData.c3,
-      c4: app.globalData.c4,
+      stomach1: app.globalData.stomach1,
+      stomach2: app.globalData.stomach2,
+      stomach3: app.globalData.stomach3,
+      stomach4: app.globalData.stomach4,
     })
   },
 
@@ -49,10 +49,10 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.c1 = this.data.c1;
-    app.globalData.c2 = this.data.c2;
-    app.globalData.c3 = this.data.c3;
-    app.globalData.c4 = this.data.c4;
+    app.globalData.stomach1 = this.data.stomach1;
+    app.globalData.stomach2 = this.data.stomach2;
+    app.globalData.stomach3 = this.data.stomach3;
+    app.globalData.stomach4 = this.data.stomach4;
   },
 
   /**
@@ -85,24 +85,24 @@ Page({
       url: '../Test2/Test2'
     })
   },
-  Cc1: function (e) {
+  Cstomach1: function (e) {
     this.setData({
-      c1: e.detail.value
+      stomach1: e.detail.value
     })
   },
-  Cc2: function (e) {
+  Cstomach2: function (e) {
     this.setData({
-      c2: e.detail.value
+      stomach2: e.detail.value
     })
   },
-  Cc3: function (e) {
+  Cstomach3: function (e) {
     this.setData({
-      c3: e.detail.value
+      stomach3: e.detail.value
     })
   },
-  Cc4: function (e) {
+  Cstomach4: function (e) {
     this.setData({
-      c4: e.detail.value
+      stomach4: e.detail.value
     })
   },
 })

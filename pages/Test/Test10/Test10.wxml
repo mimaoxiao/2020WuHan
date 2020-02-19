@@ -16,31 +16,31 @@
   <view class="Question">
     <view class="QuestionPart">
       <view class="QuestionContent">去过武汉及其周边地区</view>
-      <switch value="{{j1}}" bindchange="Cj1" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch1}}" bindchange="Ctouch1" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">接触过来自武汉的病人</view>
-      <switch value="{{j2}}" bindchange="Cj2" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch2}}" bindchange="Ctouch2" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">去过湖北及其周边地区</view>
-      <switch value="{{j3}}" bindchange="Cj3" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch3}}" bindchange="Ctouch3" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">使用交通工具时在湖北停留</view>
-      <switch value="{{j4}}" bindchange="Cj4" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch4}}" bindchange="Ctouch4" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">接触过来自湖北的人</view>
-      <switch value="{{j5}}" bindchange="Cj5" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch5}}" bindchange="Ctouch5" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">接触活的禽类</view>
-      <switch value="{{j6}}" bindchange="Cj6" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch6}}" bindchange="Ctouch6" class="QuestionChoose" type="checkbox"/>
     </view>
     <view class="QuestionPart">
       <view class="QuestionContent">似乎接触过病人，记不清</view>
-      <switch value="{{j7}}" bindchange="Cj7" class="QuestionChoose" type="checkbox"/>
+      <switch value="{{touch7}}" bindchange="Ctouch7" class="QuestionChoose" type="checkbox"/>
     </view>
   </view>
   <view class="Answer">

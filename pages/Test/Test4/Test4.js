@@ -6,8 +6,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    d1: 0,
-    d2: 0,
+    eye1: 0,
+    eye2: 0,
   },
 
   /**
@@ -15,8 +15,8 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      d1: app.globalData.d1,
-      d2: app.globalData.d2,
+      eye1: app.globalData.eye1,
+      eye2: app.globalData.eye2,
     })
   },
 
@@ -45,8 +45,8 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.d1 = this.data.d1;
-    app.globalData.d2 = this.data.d2;
+    app.globalData.eye1 = this.data.eye1;
+    app.globalData.eye2 = this.data.eye2;
   },
 
   /**
@@ -79,14 +79,14 @@ Page({
       url: '../Test3/Test3'
     })
   },
-  Cd1: function (e) {
+  Ceye1: function (e) {
     this.setData({
-      d1: e.detail.value
+      eye1: e.detail.value
     })
   },
-  Cd2: function (e) {
+  Ceye2: function (e) {
     this.setData({
-      d2: e.detail.value
+      eye2: e.detail.value
     })
   },
 })

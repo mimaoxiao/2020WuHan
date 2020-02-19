@@ -17,7 +17,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">头冷头昏</view>
       <view class="QuestionChoose">
-        <slider value="{{e1}}" bindchange="Ce1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{body1}}" bindchange="Cbody1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -26,7 +26,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">体力下降</view>
       <view class="QuestionChoose">
-        <slider value="{{e2}}" bindchange="Ce2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{body2}}" bindchange="Cbody2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -35,7 +35,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">胸闷心慌</view>
       <view class="QuestionChoose">
-        <slider value="{{e3}}" bindchange="Ce3" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{body3}}" bindchange="Cbody3" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -44,7 +44,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">肌肉非运动酸痛</view>
       <view class="QuestionChoose">
-        <slider value="{{e4}}" bindchange="Ce4" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{body4}}" bindchange="Cbody4" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -53,7 +53,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">怕冷</view>
       <view class="QuestionChoose">
-        <slider value="{{e5}}" bindchange="Ce5" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{body5}}" bindchange="Cbody5" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -62,7 +62,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">非以上其他不适</view>
       <view class="QuestionChoose">
-        <slider value="{{e6}}" bindchange="Ce6" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{body6}}" bindchange="Cbody6" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>

@@ -17,7 +17,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">红肿血丝增多</view>
       <view class="QuestionChoose">
-        <slider value="{{d1}}" bindchange="Cd1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{eye1}}" bindchange="Ceye1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>
@@ -26,7 +26,7 @@
     <view class="QuestionPart">
       <view class="QuestionContent">眼睛酸痒或疼痛</view>
       <view class="QuestionChoose">
-        <slider value="{{d2}}" bindchange="Cd2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <slider value="{{eye2}}" bindchange="Ceye2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
         <view class="QuestionLabel">
           <view>无</view><view>轻</view><view>重</view>
         </view>

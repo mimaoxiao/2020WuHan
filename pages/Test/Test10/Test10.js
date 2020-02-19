@@ -6,13 +6,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    j1: false,
-    j2: false,
-    j3: false,
-    j4: false,
-    j5: false,
-    j6: false,
-    j7: false,
+    touch1: false,
+    touch2: false,
+    touch3: false,
+    touch4: false,
+    touch5: false,
+    touch6: false,
+    touch7: false,
   },
 
   /**
@@ -20,13 +20,13 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      j1: app.globalData.j1,
-      j2: app.globalData.j2,
-      j3: app.globalData.j3,
-      j4: app.globalData.j4,
-      j5: app.globalData.j5,
-      j6: app.globalData.j6,
-      j7: app.globalData.j7,
+      touch1: app.globalData.touch1,
+      touch2: app.globalData.touch2,
+      touch3: app.globalData.touch3,
+      touch4: app.globalData.touch4,
+      touch5: app.globalData.touch5,
+      touch6: app.globalData.touch6,
+      touch7: app.globalData.touch7,
     })
   },
 
@@ -55,13 +55,13 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    app.globalData.j1 = this.data.j1;
-    app.globalData.j2 = this.data.j2;
-    app.globalData.j3 = this.data.j3;
-    app.globalData.j4 = this.data.j4;
-    app.globalData.j5 = this.data.j5;
-    app.globalData.j6 = this.data.j6;
-    app.globalData.j7 = this.data.j7;
+    app.globalData.touch1 = this.data.touch1;
+    app.globalData.touch2 = this.data.touch2;
+    app.globalData.touch3 = this.data.touch3;
+    app.globalData.touch4 = this.data.touch4;
+    app.globalData.touch5 = this.data.touch5;
+    app.globalData.touch6 = this.data.touch6;
+    app.globalData.touch7 = this.data.touch7;
   },
 
   /**
@@ -94,39 +94,39 @@ Page({
       url: '../Test9/Test9'
     })
   },
-  Cj1: function (e) {
+  Ctouch1: function (e) {
     this.setData({
-      j1: e.detail.value
+      touch1: e.detail.value
     })
   },
-  Cj2: function (e) {
+  Ctouch2: function (e) {
     this.setData({
-      j2: e.detail.value
+      touch2: e.detail.value
     })
   },
-  Cj3: function (e) {
+  Ctouch3: function (e) {
     this.setData({
-      j3: e.detail.value
+      touch3: e.detail.value
     })
   },
-  Cj4: function (e) {
+  Ctouch4: function (e) {
     this.setData({
-      j4: e.detail.value
+      touch4: e.detail.value
     })
   },
-  Cj5: function (e) {
+  Ctouch5: function (e) {
     this.setData({
-      j5: e.detail.value
+      touch5: e.detail.value
     })
   },
-  Cj6: function (e) {
+  Ctouch6: function (e) {
     this.setData({
-      j6: e.detail.value
+      touch6: e.detail.value
     })
   },
-  Cj7: function (e) {
+  Ctouch7: function (e) {
     this.setData({
-      j7: e.detail.value
+      touch7: e.detail.value
     })
   },
 })

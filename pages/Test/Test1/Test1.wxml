@@ -20,7 +20,7 @@
       </view>
       <view class="QuestionContent">
         <image class="QuestionIcon" src="Age.jpg"></image>
-        <input maxlength="3" class="QuestionInput"></input>
+        <input maxlength="3" bindblur="Cage" class="QuestionInput"></input>
       </view>
     </view>
     <view class="QuestionPart">
@@ -37,8 +37,8 @@
         现居地
       </view>
       <view class="QuestionContent">
-        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
-        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="CaddressB"></select>
+        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="CaddressS"></select>
       </view>
     </view>
   </view>
