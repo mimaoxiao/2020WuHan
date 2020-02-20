@@ -15,7 +15,7 @@
   </view>
 
     <dialog show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{[{text: '确定'}]}}">
-      <view>智能护士正在对您的数据进行24小时不间断观察，并同步国家疾控中心为您尽早配备医疗条件</view>
+      <view>智能护士正在对您的数据进行24小时不间断观察，并同步国家疾控中心为您尽早配备医疗条件。</view>
     </dialog>
 
   <view class="OpeningChart">

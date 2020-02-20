@@ -157,7 +157,7 @@ Page({
   },
   ToTest: function () {
     wx.navigateTo({
-      url: '../Test/Test1/Test1'
+      url: '../Test/Test1-Person/Test'
     })
   },
   ChartStop:function(){

@@ -1,0 +1,55 @@
+/* pages/Upload/Upload.wxss */
+.Container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 100rpx;
+  padding-right: 100rpx;
+  border-top: 1px solid black;
+}
+.UploadTip{
+  width: 100%;
+}
+.UploadTipText{
+  font-size: 30rpx;
+  display: block;
+}
+.UploadForm{
+  padding-top: 80rpx;
+  width: 100%;
+  display: flex;
+}
+.UploadInput{
+  border-bottom: 1px solid gray;
+  width: 70%;
+}
+.UploadInputTip{
+  flex-grow: 1;
+}
+.UploadFormArea{
+  padding-top: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50rpx;
+}
+.UploadInputTip{
+  align-self: flex-start;
+  padding-bottom: 20rpx;
+}
+.UploadTextArea{
+  width: 80%;
+  height: 200rpx;
+  border: 1px solid gray;
+}
+.UploadButton{
+  font-size: 50rpx;
+  width: 80%;
+  text-align: center;
+  padding: 40rpx;
+  background-color: #2783F2;
+  color: white;
+}

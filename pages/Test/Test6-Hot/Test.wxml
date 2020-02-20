@@ -1,0 +1,39 @@
+<!--pages/Test/Test7/Test7.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    6/11
+    </view>
+    是否有以下发热症状
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">高于38°C</view>
+      <switch value="{{hot1}}" bindchange="Chot1" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">37.3°C~38°C</view>
+      <switch value="{{hot2}}" bindchange="Chot2" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">感觉发烧</view>
+      <switch value="{{hot3}}" bindchange="Chot3" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">未发烧</view>
+      <switch value="{{hot4}}" bindchange="Chot4" class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>
+

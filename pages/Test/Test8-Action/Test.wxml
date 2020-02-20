@@ -1,0 +1,35 @@
+<!--pages/Test/Test9/Test9.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    9/11
+    </view>
+    两周内的出行调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">出行时未使用防护措施</view>
+      <switch value="{{action1}}" bindchange="Caction1" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">参与过人群聚集活动或多人聚会</view>
+      <switch value="{{action2}}" bindchange="Caction2" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">未参与人群聚集活动或采取防护措施</view>
+      <switch value="{{action3}}" bindchange="Caction3" class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>
+

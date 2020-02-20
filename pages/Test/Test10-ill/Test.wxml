@@ -1,0 +1,47 @@
+<!--pages/Test/Test9/Test9.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    10/11
+    </view>
+    慢性病史调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">慢性心脑血管疾病</view>
+      <switch value="{{ill1}}" bindchange="Cill1" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">慢性呼吸道疾病</view>
+      <switch value="{{ill2}}" bindchange="Cill2" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">慢性肝肾疾病</view>
+      <switch value="{{ill3}}" bindchange="Cill3" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">免疫低下</view>
+      <switch value="{{ill4}}" bindchange="Cill4" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">其他疾病</view>
+      <switch value="{{ill5}}" bindchange="Cill5" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">无疾病</view>
+      <switch value="{{ill6}}" bindchange="Cill6" class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>
+

@@ -1,0 +1,45 @@
+<!--pages/Test/Test11/Test11.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    11/11
+    </view>
+    身边人群的调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">身边多人出现症状</view>
+      <switch value="{{around1}}" bindchange="Caround1" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">身边有人出现症状</view>
+      <switch value="{{around2}}" bindchange="Caround2" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">身边无人出现症状</view>
+      <switch value="{{around3}}" bindchange="Caround3" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view wx:if="{{warning}}" class="Warning">
+      <view class="WarningTip">
+        <image class="WarningIcon" src="Star.jpg"></image>
+        meow
+      </view>
+      <input maxlength="11" placeholder="+86 111 1111 1111" class="WarningInput"></input>
+      <view class="WarningSafety">
+        meow
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">提交</view>
+  </view>
+</view>
+

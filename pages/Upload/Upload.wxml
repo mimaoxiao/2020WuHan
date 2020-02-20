@@ -1,0 +1,39 @@
+<view class="Container">
+  <view class="UploadTip">
+    <text class="UploadTipText">
+      目前审核上报和联系医疗支持全靠小伙伴人工，每天上报一次，非确诊或疑似患者请勿填写。
+    </text>
+  </view>
+
+  <view class="UploadForm">
+    <view class="UploadInputTip">
+      联系名称
+    </view>
+    <input class="UploadInput"></input>
+  </view>
+
+  <view class="UploadForm">
+    <view class="UploadInputTip">
+      手机号码
+    </view>
+    <input class="UploadInput"></input>
+  </view>
+
+  <view class="UploadForm">
+    <view class="UploadInputTip">
+      居住地点
+    </view>
+    <input class="UploadInput"></input>
+  </view>
+
+  <view class="UploadFormArea">
+    <view class="UploadInputTip">
+      病情补充
+    </view>
+    <textarea class="UploadTextArea"></textarea>
+  </view>
+
+  <view class="UploadButton">
+    提交
+  </view>
+</view>

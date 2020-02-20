@@ -1,0 +1,48 @@
+<!--pages/Test/Test1/Test1.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    1/11
+    </view>
+    第一题
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionLabel">
+        年龄
+      </view>
+      <view class="QuestionContent">
+        <image class="QuestionIcon" src="Age.jpg"></image>
+        <input maxlength="3" bindblur="Cage" class="QuestionInput"></input>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionLabel">
+        性别
+      </view>
+      <view class="QuestionContent">
+        <image class="QuestionIcon" bindtap="chooseman" style="width:{{manSize}};height:{{manSize}}" src="Man.jpg"></image>
+        <image class="QuestionIcon" bindtap="choosewoman" style="width:{{womanSize}};height:{{womanSize}}" src="Woman.jpg"></image>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionLabel">
+        现居地
+      </view>
+      <view class="QuestionContent">
+        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="CaddressB"></select>
+        <select class="QuestionSelect" options="{{options}}" key="city_id" text="city_name" bind:change="CaddressS"></select>
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>

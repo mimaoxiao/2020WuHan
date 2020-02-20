@@ -1,0 +1,35 @@
+<!--pages/Test/Test9/Test9.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    7/11
+    </view>
+    用药情况调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">用药好转</view>
+      <switch value="{{medicine1}}" bindchange="Cmedicine1" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">用药未好转</view>
+      <switch value="{{medicine2}}" bindchange="Cmedicine2" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">未用药</view>
+      <switch value="{{medicine3}}" bindchange="Cmedicine3" class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>
+

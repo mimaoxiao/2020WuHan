@@ -1,37 +1,43 @@
 <!--pages/Result/Result.wxml-->
 <view class="Container">
   <view class="Title">
-      今日报告
+      <view class="TitleBig">
+        参照国家卫健委
+      </view>
+      <view class="TitleSmall">
+        喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵咪喵喵喵喵喵喵喵喵喵喵喵
+      </view>
   </view>
-  <image class="TitleImage" src="ResultBeat.png"></image>
+  
   <view class="Analyse">
-    <text class="AnalyseStatus">
+    <view class="AnalyseStatus">
       可能性高
-    </text>
-    <text class="AnalyseText">
+    </view>
+    <image class="TitleImage" src="ResultBeat.png"></image>
+    <view class="AnalyseText">
       喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵
-    </text>
+    </view>
   </view>
   <view class="Other">
     <view class="OtherPart">
-      <image src="AI.jpg" class="OtherIcon"></image>
-      meow
+      <image src="ResultUpload.png" class="OtherIcon"></image>
+      医疗援助申请
     </view>
     <view class="OtherPart">
-      <image src="Share.jpg" class="OtherIcon"></image>
-      meow
+      <image src="ResultData.png" class="OtherIcon"></image>
+      我的档案
     </view>
     <view class="OtherPart">
-      <image src="Weixin.jpg" class="OtherIcon"></image>
-      meow
+      <image src="ResultShare.png" class="OtherIcon"></image>
+      分享
     </view>
   </view>
   <view class="Human">
     <view class="HumanTip">
-      meowmeow
+      由于你有明显症状，为你开通人工通道（此项为本系统外提供的医疗支持，点击会退出本系统，请注意保护隐私）
     </view>
     <view class="HumanSwitch">
-      meowmeowmeow
+      我已了解，进入人工诊疗
     </view>
   </view>
 </view>

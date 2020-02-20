@@ -1,0 +1,43 @@
+<!--pages/Test/Test9/Test9.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    12/12
+    </view>
+    用药情况调查
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">白细胞正常或减少/淋巴细胞减少</view>
+      <switch value="{{scan1}}" bindchange="Cscan1" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">多发小斑片影及间质/肺外带明显</view>
+      <switch value="{{scan2}}" bindchange="Cscan2" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">多发磨玻璃影/浸润影</view>
+      <switch value="{{scan3}}" bindchange="Cscan3" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">肺实变/胸腔积液</view>
+      <switch value="{{scan4}}" bindchange="Cscan4" class="QuestionChoose" type="checkbox"/>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">未检测</view>
+      <switch value="{{scan5}}" bindchange="Cscan5" class="QuestionChoose" type="checkbox"/>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>
+

@@ -1,0 +1,59 @@
+<!--pages/Test/Test3/Test3.wxml-->
+<view class="Container">
+  <view class="TopBar">
+    测试过程desu
+  </view>
+  <view class="Check">
+    <image class="CheckIcon" src="Note.jpg"></image>
+    评估依据
+  </view>
+  <view class="Number">
+    <view class="NumberShow">
+    3/11
+    </view>
+    是否有以下胃肠道症状
+  </view>
+  <view class="Question">
+    <view class="QuestionPart">
+      <view class="QuestionContent">腹泻</view>
+      <view class="QuestionChoose">
+        <slider value="{{stomach1}}" bindchange="Cstomach1" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">腹痛</view>
+      <view class="QuestionChoose">
+        <slider value="{{stomach2}}" bindchange="Cstomach2" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">恶心反胃</view>
+      <view class="QuestionChoose">
+        <slider value="{{stomach3}}" bindchange="Cstomach3" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+    <view class="QuestionPart">
+      <view class="QuestionContent">呕吐</view>
+      <view class="QuestionChoose">
+        <slider value="{{stomach4}}" bindchange="Cstomach4" activeColor="#909090" class="QuestionSlider" max="2" step="1" block-size="15" ></slider>
+        <view class="QuestionLabel">
+          <view>无</view><view>轻</view><view>重</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="Answer">
+   <view bindtap="Prev" class="AnswerPrev">上一项</view>
+   <view bindtap="Next" class="AnswerNext">下一项</view>
+  </view>
+</view>
+
